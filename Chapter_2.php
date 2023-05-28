@@ -15,18 +15,18 @@ class Person
     {
         $this->name = $name;
         $this->age = $age;
-    } 
+    }
 
     // method that will show properties
     public function show()
     {
-        echo "Person name is " .$this->name ." and age is " . $this->age;
+        echo "Person name is " . $this->name . " and age is " . $this->age;
     }
 }
 
 
-// Create an object for Calculation class
+// Create an object for Person class
 $objOne = new Person('Gaurav Pandey', '27');
 
-// Call method from Calculation class using Object
+// Call method from Person class using Object
 $objOne->show();
